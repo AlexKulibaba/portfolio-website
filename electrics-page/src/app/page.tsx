@@ -1,10 +1,10 @@
 // pages/page.tsx
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import landingImage from "./images/landing_image.jpg"; // Import the image
-import ContactForm from "./components/ContactForm";
-import Testimonials from "./components/Testimonials";
-import Services from "./components/Services";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import landingImage from "../images/landing_image.jpg"; // Import the image
+import ContactForm from "../components/ContactForm";
+import Testimonials from "../components/Testimonials";
+import Services from "../components/Services";
 
 export default function Home() {
   return (
