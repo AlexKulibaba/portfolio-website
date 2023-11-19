@@ -11,23 +11,27 @@ export default function Home() {
     <>
       <Header />
       <main className="bg-white text-gray-700">
-        {/* Hero section with a large image and overlay text */}
-
-        <section className="relative">
+        {/* Hero section with a large image, overlay text and contact form */}
+        <section className="relative md:flex md:items-center h-96 md:h-96 lg:h-[600px]">
           <img
-            src={landingImage.src} // Use the imported image
+            src={landingImage.src}
             alt="Electrician Work"
-            className="w-full h-[600px] object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="absolute top-1/3 left-1/2 transform -translate-x-3/4 -translate-y-1/2 text-white">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          <div className="w-full z-10 absolute inset-0 bg-black bg-opacity-50 p-4 text-white text-center md:text-left md:relative flex-1">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4">
               Your Best Local Electrician
             </h1>
           </div>
-
-          <ContactForm />
+          <div className="z-10 hidden lg:flex md:absolute lg:right-10 items-center justify-center md:w-[400px]">
+            <ContactForm />
+          </div>
         </section>
+        <div className="lg:hidden p-5 flex justify-center items-center w-full">
+          <ContactForm />
+        </div>
         <Testimonials />
+
         <Services />
       </main>
       <Footer />

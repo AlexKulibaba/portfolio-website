@@ -30,7 +30,7 @@ export default function Header() {
       </div>
 
       {/* Main header */}
-      <header className="bg-gray-900 text-white py-4">
+      <header className="bg-gray-900 text-white py-4  hidden md:block">
         <div className="container mx-auto flex items-center justify-between px-6">
           {/* Logo and Home link */}
           <Link
