@@ -10,24 +10,26 @@ const Testimonials = () => {
         {/* Replace with actual testimonial content */}
         <div className="border p-4 rounded-lg shadow-md">
           <p>
-            "Excellent service, professional and reliable. Highly recommend!"
+            &quot;Excellent service, professional and reliable. Highly
+            recommend!&quot;
           </p>
           <span>- John Doe</span>
         </div>
         <div className="border p-4 rounded-lg shadow-md">
           <p>
-            "They did a fantastic job with our home wiring. Fast and efficient."
+            &quot;They did a fantastic job with our home wiring. Fast and
+            efficient.&quot;
           </p>
           <span>- Jane Smith</span>
         </div>
         <div className="border p-4 rounded-lg shadow-md">
-          <p>"Very knowledgeable and affordable. Best in town!"</p>
+          <p>&quot;Very knowledgeable and affordable. Best in town!&quot;</p>
           <span>- Alex Johnson</span>
         </div>
         <div className="border p-4 rounded-lg shadow-md">
           <p>
-            "I'm extremely satisfied with their work. Great attention to
-            detail."
+            &quot;I&apos;m extremely satisfied with their work. Great attention
+            to detail.&quot;
           </p>
           <span>- Emily Davis</span>
         </div>

@@ -13,9 +13,9 @@ const Contact = () => {
         <section className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-4">Get in Touch</h1>
           <p className="text-lg max-w-2xl mx-auto">
-            We're here to help with all your electrical needs. Reach out to us
-            through the form, or visit us at our location. Let's connect and
-            discuss how we can make your project a success.
+            We&apos;re here to help with all your electrical needs. Reach out to
+            us through the form, or visit us at our location. Let&apos;s connect
+            and discuss how we can make your project a success.
           </p>
         </section>
 

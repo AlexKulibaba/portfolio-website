@@ -48,8 +48,8 @@ const Portfolio = () => {
               <h2 className="text-2xl font-bold">Roof Repair Services</h2>
               <p className="mt-2 text-gray-600">
                 Our skilled team carried out extensive repairs on a historical
-                building's roof in 2020, preserving its architectural integrity
-                while ensuring modern safety standards were met.
+                building&apos;s roof in 2020, preserving its architectural
+                integrity while ensuring modern safety standards were met.
               </p>
             </div>
           </div>

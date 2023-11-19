@@ -16,7 +16,7 @@ const About = () => {
         <section className="mb-12 text-center">
           <h1 className="text-4xl font-bold mb-4">About Us</h1>
           <p className="text-lg">
-            Welcome to [Your Company Name], where we've been providing
+            Welcome to [Your Company Name], where we&apos;ve been providing
             outstanding electrical services since [Year]. Our commitment to
             exceptional quality and customer service has made us a leader in the
             electrical industry.
@@ -27,9 +27,9 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
           <p className="text-lg">
             Our mission is to deliver safe, innovative, and reliable electrical
-            solutions that power our customers' lives and businesses. We strive
-            to exceed expectations with our dedication to craftsmanship and our
-            pursuit of new technologies in the electrical field.
+            solutions that power our customers&apos; lives and businesses. We
+            strive to exceed expectations with our dedication to craftsmanship
+            and our pursuit of new technologies in the electrical field.
           </p>
         </section>
 

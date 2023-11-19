@@ -4,7 +4,7 @@ import roofImage from "../images/roof_image.jpg";
 import solarImage from "../images/solar_image.jpg";
 import voltageImage from "../images/voltage_image.jpg";
 import Link from "next/link";
-
+import Image from "next/image";
 const Services = () => {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -12,7 +12,7 @@ const Services = () => {
       <div className="grid md:grid-cols-3 gap-8">
         {/* Service 1: Solar Panel Installation */}
         <div className="bg-white shadow-lg rounded-lg p-4">
-          <img
+          <Image
             src={solarImage.src}
             alt="Solar Panel Installation"
             className="w-full h-64 object-cover rounded-md"
@@ -39,7 +39,7 @@ const Services = () => {
 
         {/* Service 2: Roof Repair */}
         <div className="bg-white shadow-lg rounded-lg p-4">
-          <img
+          <Image
             src={roofImage.src}
             alt="Roof Repair"
             className="w-full h-64 object-cover rounded-md"
@@ -66,7 +66,7 @@ const Services = () => {
 
         {/* Service 3: Electrical Services */}
         <div className="bg-white shadow-lg rounded-lg p-4">
-          <img
+          <Image
             src={voltageImage.src}
             alt="Electrical Services"
             className="w-full h-64 object-cover rounded-md"
