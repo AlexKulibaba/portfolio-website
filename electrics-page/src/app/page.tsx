@@ -17,6 +17,8 @@ export default function Home() {
           <Image
             src={landingImage.src}
             alt="Electrician Work"
+            width={landingImage.width}
+            height={landingImage.height}
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="w-full z-10 absolute inset-0 bg-black bg-opacity-50 p-4 text-white text-center md:text-left md:relative flex-1">

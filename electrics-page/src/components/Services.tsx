@@ -15,6 +15,8 @@ const Services = () => {
           <Image
             src={solarImage.src}
             alt="Solar Panel Installation"
+            width={500}
+            height={500}
             className="w-full h-64 object-cover rounded-md"
           />
           <h3 className="text-xl font-semibold mt-4">
@@ -42,6 +44,8 @@ const Services = () => {
           <Image
             src={roofImage.src}
             alt="Roof Repair"
+            width={500}
+            height={500}
             className="w-full h-64 object-cover rounded-md"
           />
           <h3 className="text-xl font-semibold mt-4">
@@ -69,6 +73,8 @@ const Services = () => {
           <Image
             src={voltageImage.src}
             alt="Electrical Services"
+            width={500}
+            height={500}
             className="w-full h-64 object-cover rounded-md"
           />
           <h3 className="text-xl font-semibold mt-4">
