@@ -7,6 +7,7 @@ import Testimonials from "../components/Testimonials";
 import Services from "../components/Services";
 import Image from "next/image";
 import AboutUs from "@/components/AboutUs";
+import QualityWork from "@/components/QualityWorkStatement";
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
           <ContactForm />
         </div>
         <Testimonials />
+        <QualityWork />
         <AboutUs />
         <Services />
       </main>
