@@ -10,7 +10,7 @@ type TestimonialProps = {
 const TestimonialBox: React.FC<TestimonialProps> = ({ text, author, date }) => {
   return (
     <div className="border p-4 rounded-lg shadow-md">
-      <p className="italic">"{text}"</p>
+      <p className="italic">&quot;{text}&quot;</p>
       <div className="flex justify-between items-center mt-4">
         <span className="font-bold">{author}</span>
         <span className="text-sm text-gray-600">{date}</span>

@@ -14,12 +14,12 @@ const AboutUs: React.FC = () => {
               competitively priced, customer-focused, and thorough.
             </p>
             <p className="mb-4">
-              With us, you'll receive quality workmanship and affordability,
-              along with innovative and user-friendly solutions to maximize
-              efficiency. Trust us to show up on time, complete the job to the
-              highest standard, and clean up after ourselves. Choose Tenmen
-              Electrical for a reliable and trustworthy electrician that cares
-              about our customers.
+              With us, you&apos;ll receive quality workmanship and
+              affordability, along with innovative and user-friendly solutions
+              to maximize efficiency. Trust us to show up on time, complete the
+              job to the highest standard, and clean up after ourselves. Choose
+              Tenmen Electrical for a reliable and trustworthy electrician that
+              cares about our customers.
             </p>
             <blockquote className="italic border-l-4 pl-4">
               “We believe in providing exceptional service with quality
