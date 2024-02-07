@@ -3,8 +3,8 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div className="container mx-auto px-6 flex flex-wrap justify-between pt-12">
-      <div className="flex justify-end h-[400px] w-full border-0 border-black p-2 pt-4 ">
-        <div className="w-1/2">
+      <div className="flex justify-end w-full border-0 border-black p-2 pt-4 ">
+        <div className="md:w-1/2">
           <h1 className=" text-3xl font-400">- About Me -</h1>
           <p className="pt-4 text-[20px]">
             I’m a Computer Science Student originally from Aachen, Germany with
