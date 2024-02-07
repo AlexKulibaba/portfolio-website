@@ -15,10 +15,10 @@ const MainView = () => {
           className="text-[100px] w-1/2 font-['Playfair'] font-medium italic pt-20"
           style={{ lineHeight: "1" }}
         >
-          Level up your online presence
+          Level up your web presence
         </h1>
         <p className="text-[24px] w-1/2 pt-10">
-          Bridging the gap between your business and the digital world.
+          Bridge the gap between your business and the digital world.
         </p>
       </div>
     </div>

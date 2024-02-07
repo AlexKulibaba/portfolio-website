@@ -2,18 +2,20 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="container mx-auto px-6 flex flex-wrap justify-between">
-      <div className="h-[400px] w-full border-0 border-black p-2 pt-4">
-        - About Me -
-        <p>
-          I am a web developer based in the United States. I have been building
-          websites for small businesses and startups for over 10 years. I
-          specialize in front-end development and have experience with back-end
-          development as well. I am passionate about helping businesses grow and
-          thrive in the digital world. I am a Computer Science student and Web
-          Developer based in Australia. I have helped build and expand websites
-          for businesses, startups and big companies.
-        </p>
+    <div className="container mx-auto px-6 flex flex-wrap justify-between pt-12">
+      <div className="flex justify-end h-[400px] w-full border-0 border-black p-2 pt-4 ">
+        <div className="w-1/2">
+          <h1 className=" text-3xl font-400">- About Me -</h1>
+          <p className="pt-4 text-[20px]">
+            I’m a Computer Science Student originally from Aachen, Germany with
+            web development experience ranging from small startups and
+            businesses to large companies. In 2023 I have moved to Sydney and
+            have since worked in web development as well as marketing for small
+            businesses and tradespeople, and with my backgound in Computer
+            Science and Trade I'm excited to apply my skills and gro your online
+            presence
+          </p>
+        </div>
       </div>
     </div>
   );
