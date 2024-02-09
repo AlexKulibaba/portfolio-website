@@ -27,12 +27,14 @@ const Projects = () => {
         <div className="pt-12 flex flex-col">
           <div className="flex md:flex-row flex-col pb-8">
             <div className="md:hidden flex text-[20px] font-bold ">
-              Jim's Electrical
+              {"Jim's Electrical"}
             </div>
             <ImageGalleryComponent items={sampleElectricalCollection} />
             <div className="flex flex-col md:w-1/2 p-4">
               <div className="hidden md:flex">
-                <div className=" text-[20px] font-bold ">Jim's Electrical</div>
+                <div className=" text-[20px] font-bold ">
+                  {"Jim's Electrical"}
+                </div>
               </div>
 
               <ul className="list-disc pl-4">
@@ -53,12 +55,14 @@ const Projects = () => {
           </div>
           <div className="flex md:flex-row-reverse flex-col pb-8">
             <div className="md:hidden flex text-[20px] font-bold ">
-              Jim's Electrical
+              {"Jim's Electrical"}
             </div>
             <ImageGalleryComponent items={augustusCollection} />
             <div className="flex flex-col md:w-1/2 p-4">
               <div className="hidden md:flex">
-                <div className=" text-[20px] font-bold ">Jim's Electrical</div>
+                <div className=" text-[20px] font-bold ">
+                  {"Jim's Electrical"}
+                </div>
               </div>
 
               <ul className="list-disc pl-4">
@@ -79,12 +83,14 @@ const Projects = () => {
           </div>
           <div className="flex md:flex-row flex-col pb-8">
             <div className="md:hidden flex text-[20px] font-bold ">
-              Jim's Electrical
+              {"Jim's Electrical"}
             </div>
             <ImageGalleryComponent items={jimsElectricalCollection} />
             <div className="flex flex-col md:w-1/2 p-4">
               <div className="hidden md:flex">
-                <div className=" text-[20px] font-bold ">Jim's Electrical</div>
+                <div className=" text-[20px] font-bold ">
+                  {"Jim's Electrical"}
+                </div>
               </div>
 
               <ul className="list-disc pl-4">

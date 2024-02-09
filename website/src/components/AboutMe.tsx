@@ -14,7 +14,7 @@ const AboutMe = () => {
             businesses to large companies. In 2023 I have moved to Sydney and
             have since worked in web development as well as marketing for small
             businesses and tradespeople, and with my backgound in Computer
-            Science and Trade I'm excited to apply my skills and grow your
+            Science and Trade I&#39;m excited to apply my skills and grow your
             online presence
           </p>
         </div>
