@@ -37,7 +37,9 @@ const ProjectEntry = ({
 
         <ul className="list-disc pl-4">
           {sample_bulletpoints.map((element: string) => (
-            <li className="py-1 text-lg">{element}</li>
+            <li key={element} className="py-1 text-lg">
+              {element}
+            </li>
           ))}
         </ul>
         <a href={website_link} target="_blank" rel="noopener noreferrer">
