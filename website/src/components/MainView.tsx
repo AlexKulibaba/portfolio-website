@@ -5,7 +5,7 @@ import Image from "next/image";
 const MainView = () => {
   return (
     <div className="container mx-auto px-6 flex flex-wrap justify-between md:pt-[124px] pt-[141px]">
-      <div className="h-[700px] w-full border-2 border-black p-8 relative">
+      <div className=" w-full border-2 border-black p-8 relative">
         <h1
           className="md:text-[100px] text-[40px] md:w-1/2 font-['Playfair'] italic md:pt-20 pt-96"
           style={{ lineHeight: "1" }}

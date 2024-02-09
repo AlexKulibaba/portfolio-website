@@ -7,7 +7,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const ImageGalleryComponent = (props: any) => {
   return (
-    <div className="border-4 border-black">
+    <div className="md:border-4 border-2 border-black shadow-lg">
       <ImageGallery {...props} showThumbnails={false} autoPlay={true} />
     </div>
   );
