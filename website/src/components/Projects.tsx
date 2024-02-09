@@ -6,6 +6,13 @@ import augustus_1 from "../Images/augustus_1.png";
 import ImageGallery from "react-image-gallery";
 import ImageGalleryComponent from "./ImageGalleryComponent";
 
+import {
+  sampleElectricalCollection,
+  augustusCollection,
+  jimsElectricalCollection,
+  placeholderImages,
+} from "@/Images/imageCollection";
+
 const Projects = () => {
   return (
     <div className="container mx-auto px-6 flex flex-wrap justify-between">
@@ -22,7 +29,7 @@ const Projects = () => {
             <div className="md:hidden flex text-[20px] font-bold ">
               Jim's Electrical
             </div>
-            <ImageGalleryComponent />
+            <ImageGalleryComponent items={sampleElectricalCollection} />
             <div className="flex flex-col md:w-1/2 p-4">
               <div className="hidden md:flex">
                 <div className=" text-[20px] font-bold ">Jim's Electrical</div>
@@ -48,7 +55,7 @@ const Projects = () => {
             <div className="md:hidden flex text-[20px] font-bold ">
               Jim's Electrical
             </div>
-            <ImageGalleryComponent />
+            <ImageGalleryComponent items={augustusCollection} />
             <div className="flex flex-col md:w-1/2 p-4">
               <div className="hidden md:flex">
                 <div className=" text-[20px] font-bold ">Jim's Electrical</div>
@@ -74,7 +81,7 @@ const Projects = () => {
             <div className="md:hidden flex text-[20px] font-bold ">
               Jim's Electrical
             </div>
-            <ImageGalleryComponent />
+            <ImageGalleryComponent items={jimsElectricalCollection} />
             <div className="flex flex-col md:w-1/2 p-4">
               <div className="hidden md:flex">
                 <div className=" text-[20px] font-bold ">Jim's Electrical</div>
