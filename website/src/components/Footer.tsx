@@ -127,7 +127,7 @@ export default function Footer() {
       <div className="py-4 border-t border-gray-200 text-center">
         <p>
           &copy; {new Date().getFullYear()} Alexander Kulibaba. All rights
-          reserved.
+          reserved. ABN: 15285203733
         </p>
       </div>
     </footer>
