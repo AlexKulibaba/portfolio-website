@@ -15,6 +15,18 @@ const MainView = () => {
         <p className="text-[24px] md:w-1/2 pt-10">
           Bridge the gap between your business and the digital world.
         </p>
+        <div className="flex flex-row pt-16">
+          <div className="">
+            <button className="p-8 py-4 rounded-md font-bold text-black transition duration-300 bg-white  border-2 hover:underline border-black ">
+              My Projects
+            </button>
+          </div>
+          <div className="pl-4">
+            <button className="p-8 py-4 rounded-md font-bold text-white transition duration-300 bg-black  hover:underline border-2 border-black ">
+              Get a Quote
+            </button>
+          </div>
+        </div>
         <Image
           src={globe_wireframe}
           alt="Image"
