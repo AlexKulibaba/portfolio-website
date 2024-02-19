@@ -26,19 +26,21 @@ export default function Header() {
           <div className="container mx-auto flex justify-between items-center px-6">
             {/* Call now button */}
             <div>
-              <div
-                className="inline-flex items-center px-4 py-1 border-white rounded-md hover:bg-white hover:text-blue-dark transition-colors cursor-pointer"
-                onClick={() => copyToClipboard("0493 824 029")}
-              >
-                <PhoneIcon className="h-5 w-5  font-bold" />
-                <span className="ml-2 font-bold">0493 824 029</span>
+              <div className="inline-flex items-center border-2 px-4 py-1 border-white rounded-md hover:bg-white hover:text-blue-dark transition-colors cursor-pointer">
+                <PhoneIcon className="h-5 w-5 font-bold" />
+                <a className="ml-2 font-bold" href="tel:0493824029">
+                  0493 824 029
+                </a>
               </div>
-              <div
-                className="md:ml-2 inline-flex items-center px-4 py-1 border-white rounded-md hover:bg-white hover:text-blue-dark transition-colors cursor-pointer"
-                onClick={() => copyToClipboard("alex.kulibaba@icloud.com")}
-              >
-                <AtSymbolIcon className="h-5 w-5  font-bold" />
-                <span className="ml-2 font-bold">alex.kulibaba@icloud.com</span>
+
+              <div className="md:ml-2 mt-1 md:mt-0 inline-flex items-center px-4 border-2 py-1 border-white rounded-md hover:bg-white hover:text-blue-dark transition-colors cursor-pointer">
+                <AtSymbolIcon className="h-5 w-5 font-bold" />
+                <a
+                  className="ml-2 font-bold"
+                  href="mailto:alex.kulibaba@icloud.com"
+                >
+                  alex.kulibaba@icloud.com
+                </a>
               </div>
             </div>
 
@@ -77,12 +79,19 @@ export default function Header() {
               >
                 About Us
               </Link> */}
+
               <Link
+                href="/"
+                className="hover:text-blue-300 transition duration-300"
+              >
+                Home
+              </Link>
+              {/* <Link
                 href="/services"
                 className="hover:text-blue-300 transition duration-300"
               >
                 Services
-              </Link>
+              </Link> */}
               <Link
                 href="/portfolio"
                 className="hover:text-blue-300 transition duration-300"
@@ -93,7 +102,7 @@ export default function Header() {
                 href="/contact"
                 className="p-2 py-2 rounded-md font-bold text-white transition duration-300 bg-black hover:bg-white hover:text-black border-2 border-black "
               >
-                Get a Quote
+                Contact Me
               </Link>
             </nav>
 

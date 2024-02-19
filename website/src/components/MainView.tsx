@@ -1,10 +1,11 @@
 import React from "react";
 import globe_wireframe from "../Images/globe_wireframe.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const MainView = () => {
   return (
-    <div className="container mx-auto px-6 flex flex-wrap justify-between md:pt-[124px] pt-[141px]">
+    <div className="container mx-auto px-6 flex flex-wrap justify-between">
       <div className=" w-full border-2 border-black p-8 relative">
         <h1
           className="md:text-[100px] text-[40px] md:w-1/2 font-['Playfair'] italic md:pt-20 pt-96"
@@ -18,7 +19,7 @@ const MainView = () => {
         <div className="flex flex-row pt-16">
           <div className="">
             <button className="p-8 py-4 rounded-md font-bold text-black transition duration-300 bg-white  border-2 hover:underline border-black ">
-              My Projects
+              <Link href="/portfolio">My Projects</Link>
             </button>
           </div>
           <div className="pl-4">
